@@ -1,0 +1,1767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HC Rep11</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/hc-replica/assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="icon" href="https://scontent.fhan14-1.fna.fbcdn.net/v/t1.6435-9/152762063_6002241203135474_7296977488017653187_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=kM6_GB3buMMAX8bwu_B&_nc_ht=scontent.fhan14-1.fna&oh=69272d3c109eb2001adb5229e8f6f0c7&oe=6173B3C7" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="main">
+        <!-- HEADER -->
+        <div  id="header" class="header">
+            <div class="grid">
+                <!-- Header Top -->
+                <div class="header-top">
+                    <div class="grid wide">
+                        <div class="header-user">
+                            <i class="header-user__icon fas fa-user-circle"></i>
+                            <a href="#" class="header-user__label hide-on__mobile">Tài khoản</a>
+                            <i class="header-user__icon-down fas fa-caret-down"></i>
+
+                            <!-- Header User Option -->
+                            <ul class="header-user__option">
+                                <li class="header-user__option-item">
+                                    <i class="header-user__option-icon fas fa-edit"></i>
+                                    <a href="#" class="header-user__option-link js-register">Đăng ký</a>
+                                </li>
+
+                                <li class="header-user__option-item">
+                                    <i class="header-user__option-icon fas fa-lock" style="padding: 0 1.5px;"></i>
+                                    <a href="#" class="header-user__option-link js-login">Đăng nhập</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Header Middle -->
+                <div class="header-middle">
+                    <div class="grid wide">
+                        <div class="header-middle__container">
+                            <div class="header-logo">
+                                <img src="./assets/img/hc-logo.png" alt="" class="header-middle__img">
+                            </div>
+                            <div class="header-search">
+                                <div class="header-search__selector hide-on__mobile-tablet">
+                                    <span class="header-search__selector-label">Toàn bộ nhóm</span>
+                                    <i class="header-search__selector-icon fas fa-chevron-down"></i>
+
+                                    <!-- Header Search Option -->
+                                    <ul class="header-search__selector-option">
+                                        <li class="header-search__selector-option__item">
+                                            <a href="#" class="header-search__selector-option__link">Toàn bộ nhóm</a>
+                                        </li>
+                                        <li class="header-search__selector-option__item">
+                                            <a href="#" class="header-search__selector-option__link">Thiết bị văn
+                                                phòng</a>
+                                        </li>
+                                        <li class="header-search__selector-option__item">
+                                            <a href="#" class="header-search__selector-option__link">Laptop, Máy tính,
+                                                KTS</a>
+                                        </li>
+                                        <li class="header-search__selector-option__item">
+                                            <a href="#" class="header-search__selector-option__link">Điện thoại, Máy
+                                                tính bảng</a>
+                                        </li>
+                                        <li class="header-search__selector-option__item">
+                                            <a href="#" class="header-search__selector-option__link">Đồ dung gia
+                                                đình</a>
+                                        </li>
+                                        <li class="header-search__selector-option__item">
+                                            <a href="#" class="header-search__selector-option__link">Điện gia dụng</a>
+                                        </li>
+                                        <li class="header-search__selector-option__item">
+                                            <a href="#" class="header-search__selector-option__link">Máy lọc nước, Cây
+                                                nước</a>
+                                        </li>
+                                        <li class="header-search__selector-option__item">
+                                            <a href="#" class="header-search__selector-option__link">Điều hòa</a>
+                                        </li>
+                                        <li class="header-search__selector-option__item">
+                                            <a href="#" class="header-search__selector-option__link">Máy giặt, Sấy quần
+                                                áo</a>
+                                        </li>
+                                        <li class="header-search__selector-option__item">
+                                            <a href="#" class="header-search__selector-option__link">Tủ lạnh, Tủ đông,
+                                                Tủ mát</a>
+                                        </li>
+                                        <li class="header-search__selector-option__item">
+                                            <a href="#" class="header-search__selector-option__link">Tivi, Loa, Âm thanh
+                                                Tivi</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="header-search__input-wrap">
+                                    <input type="text" placeholder="Tìm..." class="header-search__input">
+                                </div>
+                                <div class="header-search__btn">
+                                    <i class="header-search__icon fas fa-search"></i>
+                                </div>
+                            </div>
+                            <div class="header-socical">
+                                <div class="header-socical__item hide-on__mobile">
+                                    <div class="header-socical__circle">
+                                        <i class="header-socical__circle-icon fas fa-sync-alt"></i>
+                                    </div>
+                                    <div class="header-socical__notify">
+                                        <span class="header-socical__notify-badge">3</span>
+                                    </div>
+                                </div>
+
+                                <div class="header-socical__item hide-on__mobile">
+                                    <div class="header-socical__circle">
+                                        <i class="header-socical__circle-icon fas fa-heart"></i>
+                                    </div>
+                                    <div class="header-socical__notify">
+                                        <span class="header-socical__notify-badge">11</span>
+                                    </div>
+                                </div>
+
+                                <div class="header-socical__item">
+                                    <div class="header-socical__circle">
+                                        <i class="header-socical__circle-icon fas fa-shopping-cart"></i>
+                                    </div>
+                                    <div class="header-socical__notify">
+                                        <span class="header-socical__notify-badge">7</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Header Bottom -->
+                <div class="header-bottom">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="col l-2 m-12 c-12">
+                                <div class="header-bottom__selector">
+                                    <div class="header-bottom__selector-label">
+                                        <i class="header-bottom__selector-icon fas fa-bars"></i>
+                                        <a href="#" class="header-bottom__selector-title">SẢN PHẨM</a>
+                                    </div>
+                                    <i class="header-bottom__selector-icon fa fa-chevron-down"></i>
+                                    
+
+                                    
+                                    <div class="header-bottom__selector-nav">
+                                        <i class="header-bottom__selector-nav__icon fas fa-sync-alt hide-on__tablet hide-on__pc"></i>
+                                        <i class="header-bottom__selector-nav__icon fas fa-heart hide-on__tablet hide-on__pc"></i>
+                                        <i class="header-bottom__selector-nav__icon fas fa-bars hide-on__pc"></i>
+                                    </div>
+                                    <!-- Header Bottom / Selector - Option -->
+                                    <ul class="header-bottom__selector-option">
+                                        <li class="header-bottom__icon hide-on__pc">
+                                            <i class="header-bottom__icon-close fas fa-times"></i>
+                                        </li>
+                                        <li class="header-bottom__selector-option__item">
+                                            <span class="header-bottom__selector-option__label">
+                                                <i class="header-bottom__selector-option__icon fas fa-tv"></i>
+                                                <a href="#" class="header-bottom__selector-option__title">Tivi, Loa, Âm
+                                                    Thanh</a>
+                                            </span>
+                                            <i
+                                                class="header-bottom__selector-option__icon-arrow fa fa-chevron-right"></i>
+                                        </li>
+                                        <li class="header-bottom__selector-option__item">
+                                            <span class="header-bottom__selector-option__label">
+                                                <i class="header-bottom__selector-option__icon fas fa-pager"></i>
+                                                <a href="#" class="header-bottom__selector-option__title">Tủ Lạnh, Tủ
+                                                    Đông, Tủ Mát</a>
+                                            </span>
+                                            <i
+                                                class="header-bottom__selector-option__icon-arrow fa fa-chevron-right"></i>
+                                        </li>
+                                        <li class="header-bottom__selector-option__item">
+                                            <span class="header-bottom__selector-option__label">
+                                                <i class="header-bottom__selector-option__icon fas fa-tshirt"></i>
+                                                <a href="#" class="header-bottom__selector-option__title">Máy Giặt, Sấy
+                                                    Quần Áo</a>
+                                            </span>
+                                            <i
+                                                class="header-bottom__selector-option__icon-arrow fa fa-chevron-right"></i>
+                                        </li>
+                                        <li class="header-bottom__selector-option__item">
+                                            <span class="header-bottom__selector-option__label">
+                                                <i
+                                                    class="header-bottom__selector-option__icon fas fa-temperature-high"></i>
+                                                <a href="#" class="header-bottom__selector-option__title">Điều Hòa Nhiệt
+                                                    Độ</a>
+                                            </span>
+                                            <i
+                                                class="header-bottom__selector-option__icon-arrow fa fa-chevron-right"></i>
+                                        </li>
+                                        <li class="header-bottom__selector-option__item">
+                                            <span class="header-bottom__selector-option__label">
+                                                <i class="header-bottom__selector-option__icon fas fa-faucet"></i>
+                                                <a href="#" class="header-bottom__selector-option__title">Máy Lọc
+                                                    Nước</a>
+                                            </span>
+                                            <i
+                                                class="header-bottom__selector-option__icon-arrow fa fa-chevron-right"></i>
+                                        </li>
+                                        <li class="header-bottom__selector-option__item">
+                                            <span class="header-bottom__selector-option__label">
+                                                <i class="header-bottom__selector-option__icon fab fa-palfed"></i>
+                                                <a href="#" class="header-bottom__selector-option__title">Điện Gia
+                                                    Dụng</a>
+                                            </span>
+                                            <i
+                                                class="header-bottom__selector-option__icon-arrow fa fa-chevron-right"></i>
+                                        </li>
+                                        <li class="header-bottom__selector-option__item">
+                                            <span class="header-bottom__selector-option__label">
+                                                <i class="header-bottom__selector-option__icon fas fa-home"></i>
+                                                <a href="#" class="header-bottom__selector-option__title">Đồ Dùng Gia
+                                                    Đình</a>
+                                            </span>
+                                            <i
+                                                class="header-bottom__selector-option__icon-arrow fa fa-chevron-right"></i>
+                                        </li>
+                                        <li class="header-bottom__selector-option__item">
+                                            <span class="header-bottom__selector-option__label">
+                                                <i class="header-bottom__selector-option__icon fas fa-laptop-code"></i>
+                                                <a href="#" class="header-bottom__selector-option__title">Laptop, Điện
+                                                    Thoại, Tablet</a>
+                                            </span>
+                                            <i
+                                                class="header-bottom__selector-option__icon-arrow fa fa-chevron-right"></i>
+                                        </li>
+                                        <li class="header-bottom__selector-option__item">
+                                            <span class="header-bottom__selector-option__label">
+                                                <i class="header-bottom__selector-option__icon fas fa-desktop"></i>
+                                                <a href="#" class="header-bottom__selector-option__title">PC, Màn Hình,
+                                                    Máy Văn Phòng</a>
+                                            </span>
+                                            <i
+                                                class="header-bottom__selector-option__icon-arrow fa fa-chevron-right"></i>
+                                        </li>
+                                        <li class="header-bottom__selector-option__item">
+                                            <span class="header-bottom__selector-option__label">
+                                                <i class="header-bottom__selector-option__icon fas fa-camera-retro"></i>
+                                                <a href="#" class="header-bottom__selector-option__title">Đồng Hồ, Phụ
+                                                    Kiện</a>
+                                            </span>
+                                            <i
+                                                class="header-bottom__selector-option__icon-arrow fa fa-chevron-right"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col l-10">
+                                <div class="header-bottom__wrap hide-on__mobile-tablet">
+                                    <!-- Header Bottom / Navigation -->
+                                    <div class="header-bottom__nav">
+                                        <ul class="header-bottom__nav-list">
+                                            <li class="header-bottom__nav-item">
+                                                <a href="#" class="header-bottom__nav-link js-menu-nav">SẢN PHẨM HOT</a>
+                                                <i class="header-bottom__nav-icon fas fa-caret-down"></i>
+                                            </li>
+                                            <li class="header-bottom__nav-item">
+                                                <a href="#" class="header-bottom__nav-link">GÓC TƯ VẤN</a>
+                                            </li>
+                                            <li class="header-bottom__nav-item">
+                                                <a href="#" class="header-bottom__nav-link">TUYỂN DỤNG</a>
+                                            </li>
+                                            <li class="header-bottom__nav-item">
+                                                <a href="#" class="header-bottom__nav-link">TÌM SIÊU THỊ</a>
+                                            </li>
+                                        </ul>
+
+                                        <div class="nav-item__sub-menu js-menu-nav-wrap">
+                                            <div class="row">
+                                                <div class="col l-3">
+                                                    <div class="nav-item__sub-menu__wrap">
+                                                        <div class="nav-item__sub-menu__title">TIVI</div>
+                                                        <ul class="nav-item__sub-menu__list">
+                                                            <li class="nav-item__sub-menu__item">
+                                                                <a href="#" class="nav-item__sub-menu__link">SMART TIVI</a>
+                                                            </li>
+                                                            <li class="nav-item__sub-menu__item">
+                                                                <a href="#" class="nav-item__sub-menu__link">LIFESTYLE TIVI</a>
+                                                            </li>
+                                                            <li class="nav-item__sub-menu__item">
+                                                                <a href="#" class="nav-item__sub-menu__link">TIVI THƯỜNG</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+    
+                                                <div class="col l-3">
+                                                    <div class="nav-item__sub-menu__wrap">
+                                                        <div class="nav-item__sub-menu__title">MÁY GIẶT</div>
+                                                        <ul class="nav-item__sub-menu__list">
+                                                            <li class="nav-item__sub-menu__item">
+                                                                <a href="#" class="nav-item__sub-menu__link">M.G LỒNG NGANG</a>
+                                                            </li>
+                                                            <li class="nav-item__sub-menu__item">
+                                                                <a href="#" class="nav-item__sub-menu__link">M.G LỒNG ĐỨNG</a>
+                                                            </li>
+                                                            <li class="nav-item__sub-menu__item">
+                                                                <a href="#" class="nav-item__sub-menu__link">MÁY SẤY</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+    
+                                                <div class="col l-3">
+                                                    <div class="nav-item__sub-menu__wrap">
+                                                        <div class="nav-item__sub-menu__title">ĐIỆN GIA DỤNG</div>
+                                                        <ul class="nav-item__sub-menu__list">
+                                                            <li class="nav-item__sub-menu__item">
+                                                                <a href="#" class="nav-item__sub-menu__link">LỌC KHÔNG KHÍ</a>
+                                                            </li>
+                                                            <li class="nav-item__sub-menu__item">
+                                                                <a href="#" class="nav-item__sub-menu__link">LÒ VI SÓNG</a>
+                                                            </li>
+                                                            <li class="nav-item__sub-menu__item">
+                                                                <a href="#" class="nav-item__sub-menu__link">QUẠT ĐIỀU HÒA</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+    
+                                                <div class="col l-3">
+                                                    <div class="nav-item__sub-menu__wrap">
+                                                        <div class="nav-item__sub-menu__title">KHUYẾN MÃI</div>
+                                                        <ul class="nav-item__sub-menu__list">
+                                                            <li class="nav-item__sub-menu__item">
+                                                                <a href="#" class="nav-item__sub-menu__link">ĐIỀU HÒA</a>
+                                                            </li>
+                                                            <li class="nav-item__sub-menu__item">
+                                                                <a href="#" class="nav-item__sub-menu__link">QUẠT MÁT</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Header Bottom / Infomation -->
+                                    <div class="header-bottom__info">
+                                        <ul class="header-bottom__info-list">
+                                            <li class="header-bottom__info-item">
+                                                <i class="header-bottom__info-icon fas fa-lock"></i>
+                                                <a href="#" class="header-bottom__info-label js-login">Đăng nhập /</a>
+                                            </li>
+                                            <li class="header-bottom__info-item">
+                                                <i class="header-bottom__info-icon fas fa-edit"></i>
+                                                <a href="#" class="header-bottom__info-label js-register">Đăng ký</a>
+                                            </li>
+                                            <li class="header-bottom__info-item">
+                                                <span class="header-bottom__info-seperate"></span>
+                                            </li>
+                                            <li class="header-bottom__info-item">
+                                                <i class="header-bottom__info-icon fas fa-phone-square-alt"></i>
+                                                <a href="tel:18001788" class="header-bottom__info-label">Hotline 18001788</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CONTENT -->
+        <div class="content">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-2 m-0 c-0">
+
+                    </div>
+                    <div class="col l-7 m-12 c-12">
+                        <div class="home-slider">
+                            <!-- Bootstrap Carousel -->
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+
+                                    <div class="item active">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/2845252_BANNER_DESKTOP_IMAGE_1_89584.jpg"
+                                            alt="Los Angeles" style="width:100%;">
+                                    </div>
+                                    <div class="item">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/1997629_BANNER_DESKTOP_IMAGE_1_91093.jpg"
+                                            alt="Chicago" style="width:100%;">
+                                    </div>
+                                    <div class="item">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/1989357_BANNER_DESKTOP_IMAGE_1_90858.jpg"
+                                            alt="New York" style="width:100%;">
+                                    </div>
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-0">
+                        <!-- BEST SELLING -->
+                        <div class="best-selling">
+                            <div class="best-selling__title">
+                                <h3 href="#" class="best-selling__title-link">SALES SẬP SÀN</h3>
+                            </div>
+                            <ul class="best-selling__products">
+                                <li class="best-selling__products-item">
+                                    <img src="https://hc.com.vn/i/ecommerce/media/AV.002116_DESKTOP_91203.jpg" alt=""
+                                        class="best-selling__products-img">
+                                    <div class="best-selling__products-info">
+                                        <h5 class="best-selling__products-name">Điều hòa LG 1 chiều Inverter 9200 BTU
+                                            V10ENV/W</h5>
+                                        <span class="best-selling__products-price">6,990,000đ</span>
+                                    </div>
+                                </li>
+
+                                <li class="best-selling__products-item">
+                                    <img src="https://hc.com.vn/i/ecommerce/media/00033339_DESKTOP_82141.jpg" alt=""
+                                        class="best-selling__products-img">
+                                    <div class="best-selling__products-info">
+                                        <h5 class="best-selling__products-name">Smart Tivi Samsung 4K 50 Inch
+                                            UA50AU8000</h5>
+                                        <span class="best-selling__products-price">16,690,000đ</span>
+                                    </div>
+                                </li>
+
+                                <li class="best-selling__products-item">
+                                    <img src="https://hc.com.vn/i/ecommerce/media/00030086_DESKTOP_59153.jpg" alt=""
+                                        class="best-selling__products-img">
+                                    <div class="best-selling__products-info">
+                                        <h5 class="best-selling__products-name">Máy giặt Toshiba Inverter 8.5 Kg
+                                            TW-BH95S2V(WK) lồng ngang</h5>
+                                        <span class="best-selling__products-price">6,990,000đ</span>
+                                    </div>
+                                </li>
+
+                                <li class="best-selling__products-item">
+                                    <img src="https://hc.com.vn/i/ecommerce/media/DL.000646_DESKTOP_89131.jpg" alt=""
+                                        class="best-selling__products-img">
+                                    <div class="best-selling__products-info">
+                                        <h5 class="best-selling__products-name">Tủ lạnh Panasonic Inverter 255 lít
+                                            NR-BV280QSVN</h5>
+                                        <span class="best-selling__products-price">10,990,000đ</span>
+                                    </div>
+                                </li>
+
+                                <li class="best-selling__products-item">
+                                    <img src="https://hc.com.vn/i/ecommerce/media/DL.004256_DESKTOP_80731.jpg" alt=""
+                                        class="best-selling__products-img">
+                                    <div class="best-selling__products-info">
+                                        <h5 class="best-selling__products-name">Máy giặt Samsung AI Inverter 9 kg
+                                            WW90TP44DSH/SV lồng ngang</h5>
+                                        <span class="best-selling__products-price">9,990,000đ</span>
+                                    </div>
+                                </li>
+
+                                <li class="best-selling__products-item">
+                                    <img src="https://hc.com.vn/i/ecommerce/media/00009165_DESKTOP_15322.jpg" alt=""
+                                        class="best-selling__products-img">
+                                    <div class="best-selling__products-info">
+                                        <h5 class="best-selling__products-name">Bếp từ đôi Chef's EH-DIH2000A</h5>
+                                        <span class="best-selling__products-price">5,490,000đ</span>
+                                    </div>
+                                </li>
+
+                                <li class="best-selling__products-item">
+                                    <img src="https://hc.com.vn/i/ecommerce/media/AV.001173_DESKTOP_66856.jpg" alt=""
+                                        class="best-selling__products-img">
+                                    <div class="best-selling__products-info">
+                                        <h5 class="best-selling__products-name">Android Tivi Sony 4K 55 inch KD-55X9000H
+                                        </h5>
+                                        <span class="best-selling__products-price">20,890,000đ</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-2 m-3 c-12">
+                        <!-- STATIC NAV -->
+                        <div class="static-nav">
+                            <div class="static-nav__banner">
+                                <div class="static-banner__banner-item">
+                                    <img src="https://hc.com.vn/i/ecommerce/media/1991763_BANNER_DESKTOP_IMAGE_1_90445.jpg"
+                                        alt="Banner" class="static-nav__banner-img">
+                                </div>
+
+                                <div class="static-banner__banner-item">
+                                    <img src="https://hc.com.vn/i/hc_ecommerce//image/hotline.jpg" alt="Banner"
+                                        class="static-nav__banner-img">
+                                </div>
+
+                                <ul class="policy-nav">
+                                    <li class="policy-nav__item">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/Waranty_Icon.png" alt="Photo"
+                                            class="policy-nav__img">
+                                        <div class="policy-nav__item-content">
+                                            <h5 class="policy-nav__item-label">SẢN PHẨM</h5>
+                                            <span class="policy-nav__item-description">Hàng Chính Hãng</span>
+                                        </div>
+                                    </li>
+
+                                    <li class="policy-nav__item">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/Shipping_Icon.png" alt="Photo"
+                                            class="policy-nav__img">
+                                        <div class="policy-nav__item-content">
+                                            <h5 class="policy-nav__item-label">VẬN CHUYỂN</h5>
+                                            <span class="policy-nav__item-description">Miễn Phí Vận Chuyển 50KM</span>
+                                        </div>
+                                    </li>
+
+                                    <li class="policy-nav__item">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/Repair_Icon.png" alt="Photo"
+                                            class="policy-nav__img">
+                                        <div class="policy-nav__item-content">
+                                            <h5 class="policy-nav__item-label">BẢO HÀNH</h5>
+                                            <span class="policy-nav__item-description">Bảo Hành Tận Nơi</span>
+                                        </div>
+                                    </li>
+
+                                    <li class="policy-nav__item">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/PigMoney_Icon.png" alt="Photo"
+                                            class="policy-nav__img">
+                                        <div class="policy-nav__item-content">
+                                            <h5 class="policy-nav__item-label">MUA HÀNG</h5>
+                                            <span class="policy-nav__item-description">Hỗ Trợ Mua Trả Góp</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-10 m-9 c-12">
+                        <!-- STATIC BANNER -->
+                        <div class="static-banner">
+                            <div class="row">
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="static-banner__item">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/1989415_BANNER_DESKTOP_IMAGE_1_91157.jpg"
+                                            alt="Banner" class="static-banner__img">
+                                    </div>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="static-banner__item">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/1989421_BANNER_DESKTOP_IMAGE_1_91087.jpg"
+                                            alt="Banner" class="static-banner__img">
+                                    </div>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="static-banner__item">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/1989425_BANNER_DESKTOP_IMAGE_1_90418.jpg"
+                                            alt="Banner" class="static-banner__img">
+                                    </div>
+                                </div>
+
+                                <div class="col l-2-4 m-0 c-6">
+                                    <div class="static-banner__item">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/1989936_BANNER_DESKTOP_IMAGE_1_89941.jpg"
+                                            alt="Banner" class="static-banner__img">
+                                    </div>
+                                </div>
+
+                                <div class="col l-2-4 m-0 c-0">
+                                    <div class="static-banner__item">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/1989415_BANNER_DESKTOP_IMAGE_1_91157.jpg"
+                                            alt="Banner" class="static-banner__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PRODUCTS 0 -->
+                        <div class="product-group__0">
+                            <div class="page-top">
+                                <div class="page-top__wrap">
+                                    <h5 class="page-top__title">TÌM KIẾM NHIỀU NHẤT</h5>
+                                </div>
+                                <div class="page-top__btn">
+                                    <div class="page-top__btn-prev">
+                                        <i class="page-top__btn-icon fas fa-chevron-left"></i>
+                                    </div>
+                                    <div class="page-top__btn-next">
+                                        <i class="page-top__btn-icon fas fa-chevron-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row product-wrap">
+
+                                <div class="col l-2-4 ms-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/00026922_DESKTOP_91212.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Smart Tivi Panasonic 49 inch TH-49ES500V</h5>
+                                            <span class="product__price">11,990,000đ</span>
+                                            <div class="product__price-sale">
+                                                <span class="product__price-old">13,800,000đ</span>
+                                                <span class="product__percent">(14%)</span>
+                                            </div>
+
+                                            <div class="sale-shock">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion">
+                                                <div class="promotion-gift">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 2 +</span>
+                                                </div>
+                                                <div class="promotion-money">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 100K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4  ms-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/00034054_DESKTOP_60640.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Tủ lạnh SBS Samsung Inverter 647 lít
+                                                RS62R5001M9/SV</h5>
+                                            <span class="product__price">18,990,000đ</span>
+                                            <div class="product__price-sale">
+                                                <span class="product__price-old">23,000,000đ</span>
+                                                <span class="product__percent">(21%)</span>
+                                            </div>
+
+                                            <div class="sale-shock display--hide">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion">
+                                                <div class="promotion-gift">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 4</span>
+                                                </div>
+                                                <div class="promotion-money display--hide">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 100K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay display--hide">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 ms-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/GD.003000_DESKTOP_68372.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Máy xay sinh tố Philips</h5>
+                                            <span class="product__price">1,560,000đ</span>
+                                            <div class="product__price-sale">
+                                                <span class="product__price-old">1,800,000đ</span>
+                                                <span class="product__percent">(14%)</span>
+                                            </div>
+
+                                            <div class="sale-shock">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion">
+                                                <div class="promotion-gift">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 2</span>
+                                                </div>
+                                                <div class="promotion-money display--hide">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 100K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay display--hide">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 ms-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/DL.004259_DESKTOP_80813.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Máy giặt Samsung Inverter 8.5 kg WW85T4040CE/SV
+                                                lồng ngang</h5>
+                                            <span class="product__price">6,990,000đ</span>
+                                            <div class="product__price-sale">
+                                                <span class="product__price-old">13,500,000đ</span>
+                                                <span class="product__percent">(14%)</span>
+                                            </div>
+
+                                            <div class="sale-shock display--hide">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion display--hide">
+                                                <div class="promotion-gift">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 2 +</span>
+                                                </div>
+                                                <div class="promotion-money">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 100K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 ms-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/AV.002164_DESKTOP_83507.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Smart Tivi QLED Samsung 4K 50 inch QA50Q60A</h5>
+                                            <span class="product__price">17,690,000đ</span>
+                                            <div class="product__price-sale">
+                                                <span class="product__price-old">21,000,000đ</span>
+                                                <span class="product__percent">(14%)</span>
+                                            </div>
+
+                                            <div class="sale-shock">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion">
+                                                <div class="promotion-gift display--hide">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 2 +</span>
+                                                </div>
+                                                <div class="promotion-money">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 500K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 ms-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/AV.002164_DESKTOP_83507.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Smart Tivi QLED Samsung 4K 50 inch QA50Q60A</h5>
+                                            <span class="product__price">17,690,000đ</span>
+                                            <div class="product__price-sale">
+                                                <span class="product__price-old">21,000,000đ</span>
+                                                <span class="product__percent">(14%)</span>
+                                            </div>
+
+                                            <div class="sale-shock">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion">
+                                                <div class="promotion-gift display--hide">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 2 +</span>
+                                                </div>
+                                                <div class="promotion-money">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 500K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- Category-slider  -->
+                            <div class="row product-slider ">
+                                <div class="col l-6 m-12 c-12">
+                                    <img class="product-slider__img" src="https://hc.com.vn/i/ecommerce/media/1992203_BANNER_DESKTOP_IMAGE_1_89764.jpg" alt="Photo">
+                                </div>
+
+                                <div class="col l-6 m-12 c-12">
+                                    <img class="product-slider__img" src="https://hc.com.vn/i/ecommerce/media/1992205_BANNER_DESKTOP_IMAGE_1_89649.jpg" alt="Photo">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- PRODUCTS 1 -->
+                        <div class="product-group__1">
+                            <div class="page-top">
+                                <div class="page-top__wrap">
+                                    <h5 class="page-top__title">KHUYẾN MÃI HOT TIVI</h5>
+                                </div>
+                                <div class="page-top__btn">
+                                    <div class="page-top__btn-prev">
+                                        <i class="page-top__btn-icon fas fa-chevron-left"></i>
+                                    </div>
+                                    <div class="page-top__btn-next">
+                                        <i class="page-top__btn-icon fas fa-chevron-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row product-wrap">
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/AV.002113_DESKTOP_79049.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Smart Tivi Samsung 4K 43 inch UA43AU8000</h5>
+                                            <span class="product__price">14,190,000đ</span>
+                                            <div class="product__price-sale">
+                                                <span class="product__price-old">15,400,000đ</span>
+                                                <span class="product__percent">(8%)</span>
+                                            </div>
+
+                                            <div class="sale-shock">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion">
+                                                <div class="promotion-gift">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 2 +</span>
+                                                </div>
+                                                <div class="promotion-money">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 100K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/AV.001167_DESKTOP_61348.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Android Tivi Sony 4K 55 inch KD-55X7500H</h5>
+                                            <span class="product__price">17,390,000đ</span>
+                                            <div class="product__price-sale">
+                                                <span class="product__price-old">20,500,000đ</span>
+                                                <span class="product__percent">(21%)</span>
+                                            </div>
+
+                                            <div class="sale-shock display--hide">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion">
+                                                <div class="promotion-gift">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 4</span>
+                                                </div>
+                                                <div class="promotion-money display--hide">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 100K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay display--hide">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/AV.001018_DESKTOP_57921.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Smart Tivi Samsung 4K 75 inch UA75TU7000</h5>
+                                            <span class="product__price">25,490,000đ</span>
+                                            <div class="product__price-sale">
+                                                <span class="product__price-old">30,000,000đ</span>
+                                                <span class="product__percent">(15%)</span>
+                                            </div>
+
+                                            <div class="sale-shock">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion">
+                                                <div class="promotion-gift">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 2</span>
+                                                </div>
+                                                <div class="promotion-money display--hide">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 100K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay display--hide">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/AV.002404_DESKTOP_83162.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Smart Tivi OLED LG 4K 55 inch 55A1PTA</h5>
+                                            <span class="product__price">26,990,000đ</span>
+                                            <div class="product__price-sale">
+                                                <span class="product__price-old">42,000,000đ</span>
+                                                <span class="product__percent">(14%)</span>
+                                            </div>
+
+                                            <div class="sale-shock display--hide">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion display--hide">
+                                                <div class="promotion-gift">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 2 +</span>
+                                                </div>
+                                                <div class="promotion-money">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 100K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/AV.002086_DESKTOP_79101.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Smart Tivi Samsung 4K 50 inch UA50AU7000</h5>
+                                            <span class="product__price">16,190,000đ</span>
+                                            <div class="product__price-sale">
+                                                <span class="product__price-old">17,400,000đ</span>
+                                                <span class="product__percent">(7%)</span>
+                                            </div>
+
+                                            <div class="sale-shock">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion">
+                                                <div class="promotion-gift display--hide">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 2 +</span>
+                                                </div>
+                                                <div class="promotion-money">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 500K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- PRODUCTS 2 -->
+                        <div class="product-group__2">
+                            <div class="page-top">
+                                <div class="page-top__wrap">
+                                    <h5 class="page-top__title">ĐIỆN LẠNH HOT</h5>
+                                </div>
+                                <div class="page-top__btn">
+                                    <div class="page-top__btn-prev">
+                                        <i class="page-top__btn-icon fas fa-chevron-left"></i>
+                                    </div>
+                                    <div class="page-top__btn-next">
+                                        <i class="page-top__btn-icon fas fa-chevron-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row product-wrap">
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/00032705_DESKTOP_89164.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Tủ lạnh Panasonic Inverter 268 lít NR-BL300PKVN
+                                            </h5>
+                                            <span class="product__price">7,990,000đ</span>
+                                            <div class="product__price-sale">
+                                                <span class="product__price-old">10,400,000đ</span>
+                                                <span class="product__percent">(24%)</span>
+                                            </div>
+
+                                            <div class="sale-shock display--hide">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion display--hide">
+                                                <div class="promotion-gift">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 2 +</span>
+                                                </div>
+                                                <div class="promotion-money">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 100K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/00034053_DESKTOP_60606.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Tủ lạnh SBS Samsung Inverter 647 lít
+                                                RS62R5001B4/SV</h5>
+                                            <span class="product__price">19,990,000đ</span>
+                                            <div class="product__price-sale">
+                                                <span class="product__price-old">25,000,000đ</span>
+                                                <span class="product__percent">(14%)</span>
+                                            </div>
+
+                                            <div class="sale-shock">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion">
+                                                <div class="promotion-gift display--hide">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 2 +</span>
+                                                </div>
+                                                <div class="promotion-money">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 500K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/DL.001911_DESKTOP_59491.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Điều hòa Panasonic 1 chiều Inverter 9040 BTU
+                                                CU/CS-PU9WKH-8M</h5>
+                                            <span class="product__price">10,500,000đ</span>
+                                            <div class="product__price-sale">
+                                                <span class="product__price-old">11,100,000đ</span>
+                                                <span class="product__percent">(5%)</span>
+                                            </div>
+
+                                            <div class="sale-shock">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion">
+                                                <div class="promotion-gift">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 2</span>
+                                                </div>
+                                                <div class="promotion-money display--hide">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 100K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay display--hide">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/DL.004283_DESKTOP_83135.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Máy giặt Samsung AI Inverter 10 Kg WW10TP54DSH/SV
+                                                lồng ngang</h5>
+                                            <span class="product__price">10,900,000đ</span>
+                                            <div class="product__price-sale">
+                                                <span class="product__price-old">21,000,000đ</span>
+                                                <span class="product__percent">(47%)</span>
+                                            </div>
+
+                                            <div class="sale-shock">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion">
+                                                <div class="promotion-gift">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 2 +</span>
+                                                </div>
+                                                <div class="promotion-money">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 100K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/00034131_DESKTOP_82168.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Máy giặt Electrolux Inverter 10 kg EWF1024BDWA
+                                                lồng ngang</h5>
+                                            <span class="product__price">9,990,000đ</span>
+                                            <div class="product__price-sale">
+                                                <span class="product__price-old">16,500,000đ</span>
+                                                <span class="product__percent">(40%)</span>
+                                            </div>
+
+                                            <div class="sale-shock display--hide">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion">
+                                                <div class="promotion-gift">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 4</span>
+                                                </div>
+                                                <div class="promotion-money display--hide">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 100K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay display--hide">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- PRODUCTS 3 -->
+                        <div class="product-group__3">
+                            <div class="page-top">
+                                <div class="page-top__wrap">
+                                    <h5 class="page-top__title">ĐIỆN THOẠI - LAPTOP</h5>
+                                </div>
+                                <div class="page-top__btn">
+                                    <div class="page-top__btn-prev">
+                                        <i class="page-top__btn-icon fas fa-chevron-left"></i>
+                                    </div>
+                                    <div class="page-top__btn-next">
+                                        <i class="page-top__btn-icon fas fa-chevron-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row product-wrap">
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://cdn.tgdd.vn/Products/Images/42/230529/iphone-13-pro-max-blue-600x600.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Điện thoại iPhone 13 Pro Max 1TB Xanh Dương (Hộp
+                                                mới) - Hàng chính hãng</h5>
+                                            <span class="product__price">49,990,000đ</span>
+                                            <div class="product__price-sale">
+                                                <span class="product__price-old">55,990,000đ</span>
+                                                <span class="product__percent">(13%)</span>
+                                            </div>
+
+                                            <div class="sale-shock">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion">
+                                                <div class="promotion-gift">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 2</span>
+                                                </div>
+                                                <div class="promotion-money display--hide">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 100K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay display--hide">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/GS.006625_FEATURE_72980.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Điện thoại iPhone 11 64GB MHDC3VN/A Trắng (Hộp
+                                                mới) - Hàng chính hãng</h5>
+                                            <span class="product__price">13,590,000đ</span>
+                                            <div class="product__price-sale">
+                                                <span class="product__price-old">18,000,000đ</span>
+                                                <span class="product__percent">(28%)</span>
+                                            </div>
+
+                                            <div class="sale-shock">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion">
+                                                <div class="promotion-gift display--hide">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 2 +</span>
+                                                </div>
+                                                <div class="promotion-money">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 500K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/GS.007146_DESKTOP_74816.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Laptop Apple Macbook Air M1 256GB 2020 MGN93SA/A
+                                                (Apple M1/8GB RAM/256GB SSD/13.3"2K/MacOS/Silver) - Hàng chính hãng</h5>
+                                            <span class="product__price">24,790,000đ</span>
+                                            <div class="product__price-sale">
+                                                <span class="product__price-old">27,000,000đ</span>
+                                                <span class="product__percent">(11%)</span>
+                                            </div>
+
+                                            <div class="sale-shock display--hide">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion display--hide">
+                                                <div class="promotion-gift">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 2 +</span>
+                                                </div>
+                                                <div class="promotion-money">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 100K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/GS.008193_FEATURE_87927.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Laptop Lenovo Legion 5 Pro 16ACH6H 82JQ001VVN
+                                                (Ryzen 7 5800H/16GB RAM/512GB SSD/16"WQXGA/RTX3060 6GB/Win10/Xám) - Hàng
+                                                chính hãng</h5>
+                                            <span class="product__price">41,790,000đ</span>
+                                            <div class="product__price-sale display--hide">
+                                                <span class="product__price-old ">23,000,000đ</span>
+                                                <span class="product__percent">(21%)</span>
+                                            </div>
+
+                                            <div class="sale-shock display--hide">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion">
+                                                <div class="promotion-gift">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 4</span>
+                                                </div>
+                                                <div class="promotion-money display--hide">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 100K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay display--hide">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <div class="product">
+                                        <img src="https://hc.com.vn/i/ecommerce/media/GS.008329_DESKTOP_90493.jpg"
+                                            alt="Product" class="product__img">
+                                        <div class="product__content">
+                                            <h5 class="product__name">Điện thoại Samsung Galaxy Z Fold3 12GB/256GB Bạc -
+                                                Hàng chính hãng</h5>
+                                            <span class="product__price">41,990,000đ</span>
+                                            <div class="product__price-sale">
+                                                <span class="product__price-old">49,800,000đ</span>
+                                                <span class="product__percent">(7%)</span>
+                                            </div>
+
+                                            <div class="sale-shock">
+                                                <div class="sale-shock__wrap">
+                                                    <span class="sale-shock__title">ONLINE GIÁ SỐC</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="promotion">
+                                                <div class="promotion-gift">
+                                                    <i class="promotion__icon fas fa-gift"></i>
+                                                    <span class="promotion__title">Tặng 2 +</span>
+                                                </div>
+                                                <div class="promotion-money">
+                                                    <i class="promotion__icon fas fa-money-bill"></i>
+                                                    <span class="promotion__title">KM 100K</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-pay">
+                                            <span class="sale-pay__title">Trả góp 0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <div class="footer">
+            <div class="grid wide">
+                <div class="row footer-top">    
+                    <div class="col l-6 m-4 c-12">
+                        <div class="footer-top__socicals">
+                            <span class="footer-top__socicals-icon-wrap">
+                                <i class="footer-top__socicals-icon fab fa-facebook-f"></i>
+                            </span>
+                            <span class="footer-top__socicals-icon-wrap">
+                                <i class="footer-top__socicals-icon fab fa-youtube"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-8 c-12">
+                        <div class="footer-top__promotion">
+                            <span class="footer-top__promotion-title">ĐĂNG KÝ NHẬN KHUYẾN MÃI</span>
+                            <div class="footer-top__input-wrap">
+                                <input type="text" class="footer-top__input" placeholder="Nhập địa chỉ Email...">
+                                <button class="footer-top__btn">ĐĂNG KÝ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row footer-middle">
+                    <div class="col l-2 m-4 c-12">
+                        <div class="footer-middle__info">
+                            <img src="https://hc.com.vn/i/ecommerce/media/hclogo_blue.png" alt="LOGO"
+                                class="footer-middle__logo">
+                            <ul class="footer-middle__info-list">
+                                <li class="footer-middle__info-item">
+                                    <i class="footer-middle__info-icon fas fa-map-marker-alt"></i>
+                                    <span class="footer-middle__info-text">VHC Tower, 399 Phạm Văn Đồng - Hà Nội</span>
+                                </li>
+                                <li class="footer-middle__info-item">
+                                    <i class="footer-middle__info-icon fas fa-phone-alt"></i>
+                                    <span class="footer-middle__info-text">CSKH: 19001788 (1500đ/Phút) - 18001788</span>
+                                </li>
+                                <li class="footer-middle__info-item">
+                                    <i class="footer-middle__info-icon fas fa-envelope-open-text"></i>
+                                    <span class="footer-middle__info-text">Online@Hc.Com.Vn</span>
+                                </li>
+                                <li class="footer-middle__info-item">
+                                    <i class="footer-middle__info-icon fas fa-business-time"></i>
+                                    <span class="footer-middle__info-text">8:00AM - 22:00PM</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col l-2 m-4 c-12">
+                        <div class="footer-middle__title">VỀ ĐIỆN MÁY HC</div>
+                        <ul class="footer-middle_list">
+                            <li class="footer-middle__item">
+                                <a href="#" class="footer-middle__link">Hệ thống siêu thị</a>
+                            </li>
+                            <li class="footer-middle__item">
+                                <a href="#" class="footer-middle__link">Giới thiệu công ty</a>
+                            </li>
+                            <li class="footer-middle__item">
+                                <a href="#" class="footer-middle__link">Cơ hội nghề nghiệp</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2 m-4 c-12">
+                        <div class="footer-middle__title">HỖ TRỢ KHÁCH HÀNG</div>
+                        <ul class="footer-middle_list">
+                            <li class="footer-middle__item">
+                                <a href="#" class="footer-middle__link">Mua hàng trả góp</a>
+                            </li>
+                            <li class="footer-middle__item">
+                                <a href="#" class="footer-middle__link">Hướng dẫn mua hàng</a>
+                            </li>
+                            <li class="footer-middle__item">
+                                <a href="#" class="footer-middle__link">Bảng giá lắp đặt điều hòa</a>
+                            </li>
+                            <li class="footer-middle__item">
+                                <a href="#" class="footer-middle__link">Các hình thức thanh toán</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2 m-4 c-12">
+                        <div class="footer-middle__title">CHÍNH SÁCH CHUNG</div>
+                        <ul class="footer-middle_list">
+                            <li class="footer-middle__item">
+                                <a href="#" class="footer-middle__link">Chính sách sử dụng web</a>
+                            </li>
+                            <li class="footer-middle__item">
+                                <a href="#" class="footer-middle__link">Chính sách bảo hành</a>
+                            </li>
+                            <li class="footer-middle__item">
+                                <a href="#" class="footer-middle__link">Chính sách vận chuyển</a>
+                            </li>
+                            <li class="footer-middle__item">
+                                <a href="#" class="footer-middle__link">Chính sách đổi trả hàng</a>
+                            </li>
+                            <li class="footer-middle__item">
+                                <a href="#" class="footer-middle__link">Chính sách thẻ KHTT</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-4 m-4 c-12">
+                        <div class="footer-middle_img">
+                            <img class="footer-middle_img-hg"
+                                src="https://hc.com.vn/i/hc_ecommerce/image/icon/logo-hg.png" alt="Photo">
+                            <img class="footer-middle_img-bct"
+                                src="https://hc.com.vn/i/hc_ecommerce/image/icon/logo-bct.png" alt="Photo">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <div class="grid">
+                    <div class="footer-bottom__copyright">
+                        <span class="footer-bottom__copyright-text">©2021 All Rights Reserved. Designed by HC's IT
+                            division</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="btn-back-top">
+            <a href="#header"> <i class="btn-back-top__icon fas fa-chevron-up"></i> </a>
+        </div>
+        
+        <!-- Modal Register -->
+        <div class="modal js-modal js-modal__register">
+            <div class="modal__overlay">
+            </div>
+            <div class="modal__form js-modal__form">
+                <div class="form-auth">
+                    <div class="form-auth__container">
+                        <div class="form-auth__header">
+                            <h3 class="form-auth__heading">Đăng ký</h3>
+                            <span class="form-auth__switch-btn js-login">Đăng nhập</span>
+                        </div>
+                        <div class="form-auth__content">
+                            <div class="form-auth__group">
+                                <input type="text" class="form-auth__input" placeholder="Nhập email của bạn">
+                            </div>
+
+                            <div class="form-auth__group">
+                                <input type="password" class="form-auth__input" placeholder="Nhập mật nhẩu của bạn">
+                            </div>
+
+                            <div class="form-auth__group">
+                                <input type="password" class="form-auth__input" placeholder="Nhập lại mật khẩu của bạn">
+                            </div>
+                        </div>
+
+                        <div class="form-auth__aside">
+                            <p class="form-auth__policy-title">
+                                Bằng việc đăng ký, bạn đã đồng ý với HC Shop về
+                                <a href="#" class="form-auth__policy-link">Điều khoản dịch vụ</a> &
+                                <a href="#" class="form-auth__policy-link">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+
+                        <div class="form-auth__controls">
+                            <button class="btn btn--hover js-close">TRỞ LẠI</button>
+                            <button class="btn btn--primary js-register">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+
+                    <div class="form-auth__socical">
+                        <a href="#" class="btn btn--size-s ml-10 form-auth__socical--facebook">
+                            <i class="form-auth__socical-icon-facebook fab fa-facebook-square"></i>
+                            <span class="form-auth__socical-title" style="color: white;">
+                                Kết nối với Facebook
+                            </span>
+                        </a>
+                        <a href="#" class="btn btn--size-s ml-10 form-auth__socical--google">
+                            <i class="form-auth__socical-icon-google fab fa-google"></i>
+                            <span class="form-auth__socical-title">
+                                Kết nối với Google
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Login -->
+        <div class="modal js-modal js-modal__login">
+            <div class="modal__overlay">
+            </div>
+            <div class="modal__form js-modal__form">
+                <div class="form-auth">
+                    <div class="form-auth__container">
+                        <div class="form-auth__header">
+                            <h3 class="form-auth__heading">Đăng nhập</h3>
+                            <span class="form-auth__switch-btn js-register">Đăng ký</span>
+                        </div>
+                        <div class="form-auth__content">
+                            <div class="form-auth__group">
+                                <input type="text" class="form-auth__input"
+                                    placeholder="Email/Số điện thoại/Tên đăng nhập">
+                            </div>
+
+                            <div class="form-auth__group">
+                                <input type="password" class="form-auth__input" placeholder="Mật khẩu">
+                            </div>
+                        </div>
+
+                        <div class="form-auth__aside">
+                            <div class="form-auth__help">
+                                <a href="#" class="form-auth__help-link form-auth__help-link-fogot">Quên mật khẩu</a>
+                                <span class="form-auth__help-seperate"></span>
+                                <a href="#" class="form-auth__help-link">Cần trợ giúp?</a>
+                            </div>
+                        </div>
+
+                        <div class="form-auth__controls">
+                            <button class="btn btn--hover js-close">TRỞ LẠI</button>
+                            <button class="btn btn--primary js-login js-register--close">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+
+                    <div class="form-auth__socical">
+
+                        <a href="#" class="btn btn--size-s ml-10 form-auth__socical--sms">
+                            <i class="form-auth__socical-icon-sms fas fa-comment-dots"></i>
+                            <span class="form-auth__socical-title" style="color: white;">
+                                SMS
+                            </span>
+                        </a>
+
+                        <a href="#" class="btn btn--size-s ml-10 form-auth__socical--facebook">
+                            <i class="form-auth__socical-icon-facebook fab fa-facebook-square"></i>
+                            <span class="form-auth__socical-title" style="color: white;">
+                                Facebook
+                            </span>
+                        </a>
+                        <a href="#" class="btn btn--size-s ml-10 form-auth__socical--google">
+                            <i class="form-auth__socical-icon-google fab fa-google"></i>
+                            <span class="form-auth__socical-title">
+                                Google
+                            </span>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- JS Modal -->
+    <script>
+        const modals = document.querySelectorAll('.js-modal')
+        const loginBtns = document.querySelectorAll('.js-login')
+        const modalLogin = document.querySelector('.js-modal__login')
+        const closeBtns = document.querySelectorAll('.js-close')
+        const registerBtns = document.querySelectorAll('.js-register')
+        const modalRegister = document.querySelector('.js-modal__register')
+
+        // Hàm hiển thị Modal Login
+        function showLogin() {
+            modalLogin.classList.add('js-modal--open')
+            modalRegister.classList.remove('js-modal--open')
+        }
+
+        for (const loginBtn of loginBtns) {
+            loginBtn.addEventListener('click', showLogin)
+        }
+
+        // Hàm hiển thị Modal Register
+        function showRegister() {
+            modalRegister.classList.add('js-modal--open')
+            modalLogin.classList.remove('js-modal--open')
+        }
+
+        for (const registerBtn of registerBtns) {
+            registerBtn.addEventListener('click', showRegister)
+        }
+
+        // Hàm ẩn Modal
+        
+        function hideModal() {
+            modalRegister.classList.remove('js-modal--open')
+            modalLogin.classList.remove('js-modal--open')
+        }
+
+        for (const closeBtn of closeBtns) {
+            closeBtn.addEventListener('click',hideModal)
+        }
+
+        for (modal of modals) {
+            modal.addEventListener('click', hideModal)
+        }
+
+        // Sự kiện nổi bọt
+        const modalForms = document.querySelectorAll('.js-modal__form')
+
+        for (modalForm of modalForms) {
+            modalForm.addEventListener('click', function (event) {
+                event.stopPropagation()
+        })
+        }
+            
+    </script>
+
+    <!-- JS Menu Sub Nav -->
+    <script>
+        const menuNavBtn = document.querySelector('.js-menu-nav');
+        const menuSubNav = document.querySelector('.js-menu-nav-wrap');
+
+        function openMenuNav() {
+            menuSubNav.classList.add('open__sub-menu')
+        }
+
+        menuNavBtn.addEventListener('click', openMenuNav)
+        
+    </script>
+</body>
+</html>
