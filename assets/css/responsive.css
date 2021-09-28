@@ -137,7 +137,11 @@
     }
 
     .header-middle__img {
-        margin-left: 10px;
+        padding: 0 5px;
+    }
+
+    .footer-middle {
+        padding-bottom: 30px;
     }
 
     .footer-middle_img {
@@ -186,8 +190,13 @@
 
     .product {
         min-width: 150px;
+        height: unset;
     }
 
+    .product-wrap {
+        max-height: 320px;
+    }
+    
     .product__content {
         padding: 4px;
     }
@@ -218,6 +227,10 @@
     .hide-on__tablet {
      	display: none;
    	}
+    
+    .footer-top {
+        margin: 10px 25px 0;
+    }
 
     .footer-middle_img {
         height: 200px;
@@ -226,7 +239,6 @@
     .footer-middle__title {
         font-size: 1.3rem;
     }
-
 }
 
 

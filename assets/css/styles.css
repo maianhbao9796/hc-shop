@@ -847,7 +847,7 @@ html {
     flex-wrap: nowrap;
     flex-direction: column;
     overflow-y: hidden;
-    max-height: 270px;
+    max-height: 280px;
     overflow-x: auto;
 }
 
