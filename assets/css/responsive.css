@@ -39,8 +39,7 @@
         top: 0;
         left: 0;
         padding-left: 0;
-        width: 30vh;
-        height: 100vh;
+        height: 100%;
         background-color: var(--primary-color-blue);
         animation: leftIn ease-in 0.2s;
     }
@@ -153,7 +152,7 @@
     }
 
     .header-bottom__selector-option {
-        width: 25vh;
+        width: 70%;
     }
 
     /* Modal */
@@ -238,6 +237,10 @@
 
     .footer-middle__title {
         font-size: 1.3rem;
+    }
+
+    .header-bottom__selector-option {
+        width: 40%;
     }
 }
 
