@@ -442,7 +442,8 @@ a:hover {
 .header-bottom__wrap {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    height: 100%;
+    justify-content: flex-end;
     flex-wrap: nowrap;
     position: relative;
 }
@@ -601,7 +602,6 @@ a:hover {
     margin-top: 24px;
     border: 1px solid #e9e9e9;
     box-shadow: 0 1px 5px rgba(0, 0 , 0, 0.05);
-    max-height: 300px;
     overflow: hidden;
 }
 
@@ -622,7 +622,7 @@ a:hover {
     padding-left: 0;
     list-style: none;
     margin: 0;
-    max-height: 300px;
+    max-height: 266px;
     overflow-x: auto;
 }
 
@@ -1390,12 +1390,15 @@ a:hover {
     right: 1%;
     border-radius: 3px;
     box-shadow: 0 0px 5px var(--orange-color);
+    scroll-behavior: smooth;
+    will-change: scroll;
 }
 
 .btn-back-top__icon { 
     color: var(--white-color);
     padding: 15px;
     font-size: 1.6rem;
+    
 }
 
 
@@ -1405,6 +1408,7 @@ a:hover {
     padding: 0;
     list-style: none;
     width: 100%;
+    min-height: 322px;
     position: absolute;
     z-index: 1;
     top: 100%;
